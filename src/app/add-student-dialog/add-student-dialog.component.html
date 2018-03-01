@@ -1,0 +1,36 @@
+<div mat-dialog-content style="text-align:center">
+  <h1>Add a Student</h1>
+      <mat-card-content>
+          <form class="example-form">
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="First Name"  >
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Middle Name"  >
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Last Name"  >
+              </mat-form-field>
+            
+              <section class="example-section">
+                  <label class="example-margin">Gender:</label>
+                  <mat-radio-group >
+                    <mat-radio-button class="example-margin" value="start">Male</mat-radio-button>
+                    <mat-radio-button class="example-margin" value="end">Female</mat-radio-button>
+                  </mat-radio-group>
+                </section>
+                <div>
+                    
+                  <button mat-raised-button color="accent">Register</button>
+                  <button mat-raised-button>Cancel</button>
+                </div>
+                
+            </form>
+        
+    
+      </mat-card-content>
+</div>
+<div mat-dialog-actions>
+  <!-- <button mat-button (click)="onNoClick()">No Thanks</button> -->
+  <!-- <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button> -->
+</div>
